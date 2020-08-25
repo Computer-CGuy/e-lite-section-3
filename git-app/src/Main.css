@@ -1,0 +1,50 @@
+/*Card*/
+.card{
+    position: relative;
+    width: 20rem;
+    margin: auto;
+}
+
+/*Profile Data*/
+.profile-data{
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.profile-data img{
+    width: 8em;
+    height: 8rem;
+    border-radius: 100%;
+}
+.profile-data h2 a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: currentColor;
+
+} 
+/*Search*/
+.search input{
+    padding: 15px 12;
+    width: 100%;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+}
+
+/* Errors*/
+.err{
+    background: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+.err h2{
+    font-size: 2rem;
+    color: red;
+    margin-bottom: 1rem;
+}
+.err .profile-data p {
+    font-size: 1rem;
+    color: #333333;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&family=Russo+One&display=swap');
+body,html{
+  margin:0;
+  padding: 0;
+  color: white;
+  background-color: rgb(10,10,10);
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  color: #333;
+  z-index: 100;
+}
+.container{
+  height: 100%;
+}
+
+.menu{
+  display: flex;
+}
+.item{
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.1s ease-out;
+  
+}
+.item:hover{
+  color: rgb(10,20,200);
+  background-color: rgb(200,200,200);
+}
+a{
+  text-decoration: none;
+  color: currentColor;
+}
+h2.Weather{
+  padding-left: 20px;
+}
+
+h1.temp{
+  padding-left: 20px;
+}
+
+.center{
+  padding-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main-box{
+  margin: 10px;
+  width: 30rem;
+  border: 2px solid white;
+  padding-bottom: 20px;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.main-box:hover{
+  transform: scale(1.02);
+}
+.main-mid{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  padding: 0px 20px;
+  width: 12rem;
+}
+
+.box-title{
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: top;
+}
+.box-val{
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
