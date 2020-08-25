@@ -1,4 +1,5 @@
 # e-lite-section-3
+React-js Section
 
 ## Exercise 1
 The source code for the exercise is in the `./my-app` directory
